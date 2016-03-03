@@ -71,6 +71,7 @@ int leap2 = y % 4;
 
 const char *week[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 const char *mos[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+//summation of total days in year by month
 int totals[12] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};
 
 int a = y * 365 + leaps;
